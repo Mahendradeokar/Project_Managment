@@ -1,0 +1,15 @@
+{
+  "name": "project_managment",
+  "version": "1.0.0",
+  "description": "Application for the project managment or the organations",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mahendra Deokar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.8.1"
+  }
+}
