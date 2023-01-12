@@ -29,7 +29,7 @@ const SignupForm = ({ register, errorMessage, ...props }) => {
       setPasswordsUnMatch(false);
     }
 
-    register({ name, email, password });
+    register({ name, email, password, confirmPassword });
   };
 
   const handleChange = (event) => {
